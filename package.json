@@ -1,4 +1,14 @@
 {
+  "name": "todo-fullstack",
+  "version": "1.0.0",
+  "description": "Full stack todo application",
+  "scripts": {
+    "start": "cd TodoApp\\ Backend && npm start",
+    "build": "cd TodoApp\\ Frontend && npm run build",
+    "dev:frontend": "cd TodoApp\\ Frontend && npm run dev",
+    "dev:backend": "cd TodoApp\\ Backend && npm run dev",
+    "install:all": "npm install && cd TodoApp\\ Frontend && npm install && cd ../TodoApp\\ Backend && npm install"
+  },
   "dependencies": {
     "express": "^4.21.2"
   }
